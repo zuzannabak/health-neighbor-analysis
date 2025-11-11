@@ -1,6 +1,6 @@
 # Healthy-Lifestyle Adoption on Reddit
 
-A short network science project analyzing how health-related behaviors spread across Reddit communities.
+A network science project analyzing how health-related behaviors spread across Reddit communities.
 
 ## Project Summary
 
