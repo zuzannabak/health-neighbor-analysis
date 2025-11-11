@@ -3,12 +3,13 @@ import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 from scipy.stats import chi2_contingency
+import os
 
 ############################
 # 1. LOAD & PREPARE DATA
 ############################
 
-DATA_PATH = r"C:\Users\zuzia\Downloads\soc-redditHyperlinks-body.tsv"
+DATA_PATH = os.path.join("data", "soc-redditHyperlinks-body.tsv")
 
 df_links = pd.read_csv(DATA_PATH, sep='\t')
 df_links['TIMESTAMP'] = pd.to_datetime(df_links['TIMESTAMP'])
@@ -322,3 +323,4 @@ for label, pv in zip(window_labels, p_values_list):
     print(f"{label}: p-value = {pv:.4e}")
 
 print("\nDone.")
+
