@@ -37,10 +37,18 @@ A network science project analyzing how health-related behaviors spread across R
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
 
 3. Run the analysis:
    ```bash
    python health_neighbor_analysis.py
+   ```
+
+## Additional Materials
+
+* `project_report.pdf` – full written report (methods, results, discussion).
+
+* `project_presentation.pdf` – slide deck used for the project presentation.
 
 ## Author
 Zuzanna Bąk
